@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:2:11-41
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:4:5-46
+	android:allowBackup
+		ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml:4:18-44
+uses-sdk
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+		ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+		ADDED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml
+		INJECTED from D:\ProjectManager\guide\modules\studio\logger-master\src\main\AndroidManifest.xml

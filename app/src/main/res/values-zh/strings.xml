@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">导学本</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--<string name="welcome_jump">跳转（%dS）</string>-->
+</resources>

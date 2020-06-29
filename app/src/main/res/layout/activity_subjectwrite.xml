@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_frame_item_white"
+        android:orientation="vertical"
+        android:padding="0.5dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_margin_30dp"
+            android:background="@drawable/drawable_radius_gray"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/common_margin_15dp"
+            android:text="" />
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="260dp">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="@drawable/drawable_radius_white"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                >
+
+                <WebView
+                    android:id="@+id/webView_subject_write"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></WebView>
+            </LinearLayout>
+        <!--</ScrollView>-->
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/ic_answer_edit"
+        layout="@layout/layout_answer_edit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/ic_myanswer"
+                layout="@layout/layout_answer_subje_show" />
+
+            <include
+                android:id="@+id/ic_analysis"
+                layout="@layout/layout_answer_subje_show" />
+
+            <include
+                android:id="@+id/ic_tureanswer"
+                layout="@layout/layout_answer_subje_show" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

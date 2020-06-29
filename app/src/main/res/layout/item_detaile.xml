@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="157dp"
+    android:layout_marginBottom="@dimen/common_margin_10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_item_detaile_img"
+        android:layout_width="195dp"
+        android:layout_height="147dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin_34dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_item"
+        android:layout_width="195dp"
+        android:layout_height="147dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin_34dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/pause" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_item_detaile_name"
+        style="@style/text_18_wrap"
+        android:layout_marginLeft="@dimen/common_margin_20dp"
+        android:layout_marginTop="@dimen/common_margin_35dp"
+        android:layout_toRightOf="@id/iv_item_detaile_img"
+        android:text="第一节集合导学资料.doc" />
+
+    <TextView
+        android:id="@+id/tv_item_detaile_time"
+        style="@style/text_18_wrap"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/common_margin_10dp"
+        android:layout_marginRight="@dimen/common_margin_30dp"
+        android:text="(baidu) 2018-12-17 18:52:00 创建"
+        android:textColor="@color/gray_8033" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/common_margin_30dp"
+        android:layout_marginTop="@dimen/common_margin_30dp"
+        android:layout_marginEnd="@dimen/common_margin_30dp"
+        android:layout_marginBottom="@dimen/common_margin_10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_item_texting"
+            style="@style/text_18_white_green"
+            android:layout_marginRight="@dimen/common_margin_20dp"
+            android:text="测试题" />
+
+        <TextView
+            android:id="@+id/tv_item_note"
+            style="@style/text_18_white_green"
+            android:layout_marginRight="@dimen/common_margin_20dp"
+            android:text="笔记" />
+
+        <TextView
+            android:id="@+id/tv_item_down"
+            style="@style/text_18_white_green"
+            android:text="下载" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/common_margin_30dp"
+        android:layout_marginTop="@dimen/common_margin_30dp"
+        android:layout_marginEnd="@dimen/common_margin_30dp"
+        android:layout_marginBottom="@dimen/common_margin_10dp">
+
+        <com.zwyl.guide.util.MyProgress
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="87dp"
+            android:layout_height="27dp"
+            android:max="100"
+            android:progressDrawable="@drawable/drawable_progressbar"
+            android:visibility="gone" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/c_green"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/head_logo"
+        style="@style/style_head_text"
+        android:layout_marginLeft="@dimen/common_margin_20dp"
+        android:drawableLeft="@mipmap/back"
+        android:text="SmartEDU"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_head_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/common_margin_20dp">
+
+        <TextView
+            android:id="@+id/head_home"
+            style="@style/style_head_text"
+            android:drawableLeft="@mipmap/home"
+            android:text="首页" />
+
+        <TextView
+            android:id="@+id/head_back"
+            style="@style/style_head_text"
+            android:layout_marginLeft="@dimen/common_margin_20dp"
+            android:drawableLeft="@mipmap/back"
+            android:text="返回" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="@dimen/common_margin_20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/common_margin_17dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/head_time"
+                style="@style/style_head_text"
+                android:drawableLeft="@mipmap/desc1"
+                android:text="时间" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/head_download"
+                style="@style/style_head_text"
+                android:layout_marginLeft="@dimen/common_margin_17dp"
+                android:text="全部下载" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/head_refresh"
+            style="@style/style_head_text"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="@dimen/common_margin_20dp"
+            android:drawableLeft="@mipmap/refresh_white"
+            android:text="刷新" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/head_filter"
+        style="@style/style_head_text"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="@dimen/common_margin_17dp"
+        android:drawableLeft="@mipmap/filter"
+        android:drawablePadding="@dimen/common_margin_13dp"
+        android:text="2018-2019学年" />
+
+    <!--<View style="@style/horizontal_line"-->
+    <!--android:layout_gravity="bottom"/>-->
+</FrameLayout>

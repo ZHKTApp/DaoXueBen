@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="63dp"
+    android:layout_centerVertical="true"
+    android:gravity="center_vertical"
+    tools:showIn="@layout/activity_subjectwrite">
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tv_delete"
+            style="@style/rb_shouxie_style"
+            android:drawablePadding="@dimen/common_margin_5dp"
+            android:drawableTop="@mipmap/empty"
+            android:text="清空" />
+
+        <RadioButton
+            android:id="@+id/tv_repeal"
+            style="@style/rb_shouxie_style"
+            android:drawablePadding="@dimen/common_margin_5dp"
+            android:drawableTop="@mipmap/repeal"
+            android:text="撤销" />
+
+        <RadioButton
+            android:id="@+id/tv_renew"
+            style="@style/rb_shouxie_style"
+            android:drawablePadding="@dimen/common_margin_5dp"
+            android:drawableTop="@mipmap/renew"
+            android:text="恢复" />
+
+        <RadioButton
+
+            android:id="@+id/tv_wipe"
+            style="@style/rb_shouxie_style"
+            android:background="@drawable/drawable_pop_bg"
+            android:drawablePadding="@dimen/common_margin_5dp"
+            android:drawableTop="@mipmap/eraser"
+            android:text="擦除" />
+
+        <RadioButton
+            android:id="@+id/tv_write"
+            style="@style/rb_shouxie_style"
+            android:text="手写"
+            android:visibility="gone" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_sunbjectWrite_save"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/drawable_green_bg"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="保存" />
+
+</RelativeLayout>
